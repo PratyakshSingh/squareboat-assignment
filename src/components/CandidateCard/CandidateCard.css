@@ -1,0 +1,47 @@
+.candidate_card {
+  position: relative;
+  top: 10px;
+  left: 0px;
+  width: 302px;
+  height: 159px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #303f6080;
+  border-radius: 5px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.candidate_card--sectionOne {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 14px;
+  left: 14px;
+}
+
+.candidate_card--icon {
+  border: 1px solid none;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #d9efff 0% 0% no-repeat padding-box;
+}
+
+.candidate_card--details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.candidate_card--skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  position: relative;
+  left: 14px;
+  bottom: 15px;
+}

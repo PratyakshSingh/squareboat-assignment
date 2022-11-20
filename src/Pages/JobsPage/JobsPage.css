@@ -1,0 +1,95 @@
+.jobs_outer {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 900px;
+}
+
+.jobs_upper {
+  width: 1440px;
+  height: 210px;
+  background: transparent linear-gradient(248deg, #303f60 0%, #1a253c 100%) 0%
+    0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.headerIcon {
+  display: flex;
+  position: absolute;
+  top: 83px;
+  left: 186px;
+  width: 48px;
+  height: 15px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.headerIcon span {
+  position: relative;
+  top: 3px;
+  left: 0px;
+  width: 10px;
+  height: 9px;
+  color: white;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.home-text {
+  position: absolute;
+  top: 6px;
+  left: 15px;
+  width: 33px;
+  height: 15px;
+  text-align: left;
+  font-size: 13px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+.heading {
+  position: absolute;
+  top: 122px;
+  left: 182px;
+  width: 201px;
+  height: 26px;
+  text-align: left;
+  font-size: 22px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.main_content {
+  position: relative;
+  top: 168px;
+  left: 176px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 1094px;
+}
+
+.paginate_buttons {
+  position: absolute;
+  top: 1170px;
+  left: 670px;
+  display: flex;
+  margin-bottom: 2rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 20px 0px 30px 0px;
+}
+
+.paginate_buttons button {
+  width: 30px;
+  height: 30px;
+  background: transparent 0% 0% no-repeat padding-box;
+  border: 2px solid grey;
+  border-radius: 3px;
+  opacity: 1;
+}
